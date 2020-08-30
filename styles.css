@@ -1,0 +1,93 @@
+/*body{
+    margin-bottom: 100px;
+}*/
+
+.jumbotron{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.pageHeader{
+    height: 50px;
+    background-color: yellowgreen;
+    color:white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+p{
+    text-align-last: center;
+    font-size: large;
+    font-style: italic;
+    padding-top: 20px;
+}
+
+.Quesblock{
+    background-color: whitesmoke;
+    box-shadow: 10px 5px 5px silver;
+    /*height: 180px;*/
+    width: 85%;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    transition: 1s ease;
+    /*width: 85%;
+    */
+}
+
+.Quesblock:hover{
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    transition: 1s ease;
+    background: #f1f09f;
+        
+     }
+
+.Checkblock{
+    background-color: whitesmoke;
+    box-shadow: 10px 5px 5px silver;
+    height: 60px;
+    
+    padding-bottom: 5px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    
+    align-items: center;
+
+}
+
+input,label{
+    margin-top: 5px;
+    margin-right: 20px;
+    margin-bottom: 5px;
+}
+
+#BtnCheck{
+    float: left;
+}
+
+#BtnClear{
+    float: right;
+}
+
+
+  body{
+    margin-bottom: 50px;
+  }
+
+  
